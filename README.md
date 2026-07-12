@@ -1,66 +1,379 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🛍️ Lifestyle eCommerce
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="screenshots/storefront/storefront1.jpg" alt="Lifestyle eCommerce Banner" width="100%">
 </p>
 
-## About Laravel
+<p align="center">
+  <strong>A modern Laravel-based eCommerce platform featuring a responsive storefront, powerful admin dashboard, customer authentication, Google Login, coupon management, order processing, inventory management, and mobile-friendly shopping experience.</strong>
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">
+  <img src="https://img.shields.io/badge/Laravel-12.x-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/PHP-8.2-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/MySQL-Database-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Bootstrap-5-purple?style=for-the-badge">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+# ✨ Features
 
-## Learning Laravel
+## 🛒 Customer Storefront
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- Beautiful modern responsive UI
+- Hero Banner Slider
+- Featured Products
+- Latest Products
+- Product Categories
+- Product Details Page
+- Product Image Gallery
+- Product Search
+- Category Browsing
+- Product Reviews
+- Related Products
+- Responsive Navigation
+- Mobile Optimized
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 👤 Customer Account
 
-## Laravel Sponsors
+- Customer Registration
+- Secure Login
+- Google OAuth Login
+- Profile Management
+- Order History
+- Logout
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## 🛍️ Shopping Cart
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+- Add to Cart
+- Update Quantity
+- Remove Items
+- Dynamic Cart Count
+- Coupon Code Support
+- Remove Coupon
+- Live Cart Summary
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 💳 Checkout
 
-## Code of Conduct
+- Secure Checkout
+- Shipping Information
+- Order Confirmation
+- Order Number Generation
+- Order Tracking
+- Customer Order History
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## 📦 Product Management
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- Create Products
+- Edit Products
+- Delete Products
+- Product Status Toggle
+- Multiple Product Images
+- Product Slug
+- Product Pricing
+- Product Inventory
 
-## License
+---
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 📂 Category Management
+
+- Create Categories
+- Edit Categories
+- Delete Categories
+- Enable / Disable Categories
+- Parent & Child Category Support
+
+---
+
+## 🎟️ Coupon Management
+
+- Create Coupons
+- Update Coupons
+- Delete Coupons
+- Activate / Deactivate Coupons
+- Discount Management
+
+---
+
+## ⭐ Review Management
+
+- Customer Reviews
+- Approve Reviews
+- Reject Reviews
+- Delete Reviews
+
+---
+
+## 👥 Customer Management
+
+- Customer List
+- Customer Details
+- Activate / Deactivate Customers
+- Delete Customers
+
+---
+
+## 📦 Order Management
+
+- Order Dashboard
+- Order Details
+- Order Status Update
+- Payment Verification
+- Payment Rejection
+- Order Monitoring
+
+---
+
+## ⚙️ Store Settings
+
+- Store Information
+- Logo Management
+- Basic Configuration
+- Store Preferences
+
+---
+
+## 👨‍💼 Admin Dashboard
+
+- Sales Overview
+- Order Statistics
+- Customer Statistics
+- Product Statistics
+- Revenue Summary
+- Recent Orders
+- Dashboard Widgets
+
+---
+
+## 🔐 Authentication & Security
+
+- Admin Authentication
+- Customer Authentication
+- Google OAuth Login
+- Protected Admin Routes
+- Session Management
+
+---
+
+# 📸 Screenshots
+
+## 🏪 Storefront
+
+| Home | Categories |
+|------|------|
+| ![](screenshots/storefront/storefront1.jpg) | ![](screenshots/storefront/storefront2.jpg) |
+
+| Featured Products | Custoemr Login Using Google  |
+|------|------|
+| ![](screenshots/storefront/storefront3.jpg) | ![](screenshots/storefront/storefront4.jpg) |
+
+| Shop | Product Details |
+|------|------|
+| ![](screenshots/storefront/storefront5.jpg) | ![](screenshots/storefront/storefront6.jpg) |
+
+| Cart Details | Checkout |
+|------|------|
+| ![](screenshots/storefront/storefront7.jpg) | ![](screenshots/storefront/storefront8.jpg) |
+
+| Order Confirmation | All Orders List With Status |
+|------|------|
+| ![](screenshots/storefront/storefront9.jpg) | ![](screenshots/storefront/storefront10.jpg) |
+
+---
+
+# 🖥️ Admin Panel
+
+|Admin Login | Dashboard |
+|-----------|------------|
+| ![](screenshots/admin/ss1.jpg) | ![](screenshots/admin/ss2.jpg) |
+
+| Categories | Products |
+|-----------|------------|
+| ![](screenshots/admin/ss3.jpg) | ![](screenshots/admin/ss4.jpg) |
+
+| Orders | Coupons |
+|-----------|------------|
+| ![](screenshots/admin/ss5.jpg) | ![](screenshots/admin/ss6.jpg) |
+
+| Reviews| Customers  |
+|-----------|------------|
+| ![](screenshots/admin/ss7.jpg) | ![](screenshots/admin/ss8.jpg) |
+
+| Store Settings | Profile Settings |
+|-----------|------------|
+| ![](screenshots/admin/ss9.jpg) | ![](screenshots/admin/ss10.jpg) |
+
+---
+
+# 📱 Mobile View
+
+
+| ![](screenshots/mobile/ss1.jpg) | ![](screenshots/mobile/ss2.jpg) |
+
+
+| ![](screenshots/mobile/ss3.jpg) | ![](screenshots/mobile/ss4.jpg) |
+
+
+| ![](screenshots/mobile/ss5.jpg) | ![](screenshots/mobile/ss6.jpg) |
+
+
+| ![](screenshots/mobile/ss7.jpg) |
+
+---
+
+# 🛠️ Technology Stack
+
+- Laravel
+- PHP 8+
+- MySQL
+- Bootstrap 5
+- Blade Template Engine
+- JavaScript
+- jQuery
+- AJAX
+- HTML5
+- CSS3
+
+---
+
+# 📁 Project Structure
+
+```
+app/
+bootstrap/
+config/
+database/
+public/
+resources/
+routes/
+storage/
+```
+
+---
+
+# 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/aminul-42/lifestyle-ecommerce.git
+```
+
+Move into the project directory
+
+```bash
+cd lifestyle-ecommerce
+```
+
+Install dependencies
+
+```bash
+composer install
+```
+
+Copy environment file
+
+```bash
+cp .env.example .env
+```
+
+Generate application key
+
+```bash
+php artisan key:generate
+```
+
+Configure your database credentials in the `.env` file.
+
+Run database migrations
+
+```bash
+php artisan migrate
+```
+
+Create the storage link
+
+```bash
+php artisan storage:link
+```
+
+Start the development server
+
+```bash
+php artisan serve
+```
+
+---
+
+# 📂 Main Modules
+
+### Storefront
+
+- Home
+- Shop
+- Product Details
+- Shopping Cart
+- Checkout
+- Orders
+- Google Login
+
+### Admin Panel
+
+- Dashboard
+- Categories
+- Products
+- Orders
+- Coupons
+- Reviews
+- Customers
+- Store Settings
+- Profile Management
+
+---
+
+# 📌 Future Enhancements
+
+- Online Payment Gateway Integration
+- Wishlist
+- Product Comparison
+- Flash Sales
+- Email Notifications
+- SMS Notifications
+- Inventory Alerts
+- Multi-language Support
+- REST API
+- Mobile Application
+
+---
+
+# 👨‍💻 Developer
+
+**Md. Aminul Islam Nur**
+
+- Laravel Developer
+- Full Stack Web Developer
+- IT Officer
+
+GitHub: https://github.com/aminul-42
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## ⭐ Support
+
+If you found this project useful, please consider giving it a **Star ⭐** on GitHub.
